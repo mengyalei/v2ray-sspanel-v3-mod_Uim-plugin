@@ -2,7 +2,7 @@ version: '2'
 
 services:
  v2ray:
-    image: mengyalei/v2ray_v3:go_dev
+    image: mengyalei/v2ray_v3:go_pay
     restart: always
     network_mode: "host"
     environment:
